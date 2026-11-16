@@ -55,7 +55,7 @@ jobs:
           images: ghcr.io/${{ github.repository }}/sentiment-api
           tags: |
             type=sha,format=short
-            type=latest
+            type=raw,value=latest
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
