@@ -1,0 +1,28 @@
+# Environnements virtuels et caches Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.pytest_cache/
+.tox/
+
+# Gestion de versions et IDE
+.git/
+.gitignore
+.vscode/
+.idea/
+
+# Fichiers de configuration locale ou sensibles
+.env
+*.log
+.DS_Store
+
+# Documentation et livrables potentiels
+README.md
+*.pdf
